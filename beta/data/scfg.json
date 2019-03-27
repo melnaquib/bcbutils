@@ -1,0 +1,54 @@
+{
+    "accs": {
+        "genesis": 0,
+        "burn_proxy": 9,
+        "moves": 11
+
+    },
+    "accs_repr": {
+        "bgn": 20
+    },
+
+    "repr_default": {
+        "bgn": 41,
+        "count": 8
+    },
+
+    "repr": {
+        "fund": 1
+    },
+    "airdrop_amount": 9000,
+    "airdrop_dev": {
+        "bgn": 300,
+        "end": 400,
+        "count": 100
+    },
+
+    "moves": [
+        "initial_foundation",
+        "dev_fund",
+        "pre_sale",
+        "bounties",
+        "airdrop",
+        "rewards_bounty",
+        "ico",
+        "app_intro"
+    ],
+    "moves_funds": {
+        "initial_foundation": 0.025,
+        "dev_fund": 0.025,
+        "pre_sale": 0.025,
+        "bounties": 0.025,
+        "airdrop": 0.1,
+        "rewards_bounty": 0.2,
+        "ico": 0.2,
+        "app_intro": 0.4
+    },
+
+    "another_repr": [0, 9, 11, 12, 13, 14, 15, 16, 17, 18],
+    "default_repr": [41, 42, 43, 44, 45, 46, 47, 48, 49],
+
+    "beta": 400,
+    "live": 100,
+    "burn_amount": "304282366920938463463374607431768211456"
+}
